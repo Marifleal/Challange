@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login_style.css">
     <title>Deu Match! Login</title>
 </head>
 <body>
-    <header id="topo-login">
+    <header id="cabecalho-login">
         <h1>Entrar</h1>
-            <p><a href="index.html">Página Inicial</a></p>
-        <div>
-            <form action="login.html" method="post">
+        <p><a href="index.html">Página Inicial</a></p>
+        <div class="login-page">
+            <div class="form">
+            <form class="login-form" action="login.html" method="post">
                 <fieldset>
                     <legend>
                         Login
                     </legend>
                     <div>
-                        <label for="nmUserId">Usuário</label>
                         <input type="text" name="nmUser" id="nmUserId" placeholder="Nome de Usuário" required> 
                     </div>
                     <div>
-                        <label for="userPassId">Senha</label>
                         <input type="password" name="userPass" id="userPassId" placeholder="Digite a senha" required>
                     </div>
                     <div>
-                        <input type="submit" value="Entrar">
+                        <input type="submit" value="Entrar" id="button-login">
                     </div>
                     <div id="menu-forms">
                         <p><a href="cadastro.html">Cadastre-se</a></p>
@@ -34,6 +34,7 @@
                 </fieldset>
             </form>
         </div>
+    </div>
         
     </header>
     <div id="info-login">

@@ -1,0 +1,69 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.login-page {
+    width: 30%;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+
+.form {
+    position:relative;
+    z-index: 1;
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 70%;
+    border: 0;
+    margin: 10px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+  }
+ #button-login {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    outline: 0;
+    background: #fc2c6e;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    text-size-adjust: none;
+    text-size-adjust: auto;
+  }
+#button-login:hover{
+    background-color:#fa6594;
+}
+
+#menu-forms p a{
+    font-family: "Roboto", sans-serif;  
+    text-decoration: none;
+    float: left;
+    margin-left: 17%;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    color:#fc2c6e;
+    font-weight:bold;
+    transition: all 0.5 ease;
+  }
+#menu-forms p a:hover{
+    color: #fa6594;
+}
