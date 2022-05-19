@@ -1,0 +1,25 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+#logo-img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  header h1{
+    background-color: #fc2c6e;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+  }

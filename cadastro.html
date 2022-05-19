@@ -9,6 +9,8 @@
 </head>
 <body>
     <header id="cadastro-topo">
+       
+        <img src="./img/Deu.png" alt="logo-marca deu match" id="logo-img">
         <h1>Cadastre-se</h1>
         <h3>Esta página irá requerer as informações para cadastro do usuário seja ele candidato ou recrutador.</h3>
         <h4>Os requisitos para cadastro do candidato são:</h4>
@@ -17,13 +19,106 @@
         <h4>Os requisitos para cadastro do recrutador são:</h4>
         <p>Razão Social, CNPJ, Endereço, Contato, Porte da empresa, Descrição da empresa, Setor de atuação, Cadastro de vagas.</p>
     </header>
+
+
     <div id="forms">
         <h4>Inserir botão para selecionar a opção de CANDIDATO x RECRUTADOR.</h4>
         <p>Formulário para inserção dos dados após validação de candidato ou recrutador.</p>
+
+        <div id="candidato">
+           
+            <label for="nmCandidatoId">Nome*</label>
+            <div class="nome">
+                <input id="nmCandidatoId" data-cy="cv-name" maxlength="100" data-field-name="Nome" placeholder="Ex.: Marisa da Sousa"> 
+            </div>
+
+            <label for="emalCandidatoId">Email*</label>
+            <div class="email">
+                <input id="emalCandidatoId" data-cy="cv-email" maxlength="100" data-field-name="email" placeholder="Ex.: MarisadaSouza@gmai.com"> 
+            </div>
+
+            <label for="telCandidatoId">Telefone*</label>
+            <div class="telefone">
+                <input id="telCandidatoId" data-cy="cv-telefone" maxlength="100" data-field-name="telefone" placeholder="Ex.: (11) 9 7070-7070"> 
+            </div>
+            <label for="enderecoCandidatoId">Endereço*</label>
+            <div class="endereco">
+                <input id="enderecoCandidatoId" data-cy="cv-endereco" maxlength="100" data-field-name="endereco" placeholder="Ex.: Rua deu match"> 
+            </div>
+            <label for="hardSkillCandidatoId">HardSkill*</label>
+            <div class="hardSkill">
+                <input id="hardSkillCandidatoId" data-cy="cv-hardSkill" maxlength="100" data-field-name="hardSkill" placeholder="Ex.:"> 
+            </div>
+
+            <label for="softSkilCandidatoId">SoftSkill*</label>
+            <div class="softSkil">
+                <input id="softSkilCandidatoId" data-cy="cv-softSkil" maxlength="100" data-field-name="softSkil" placeholder="Ex.: "> 
+            </div>
+           
+            <label for="formacaoCandidatoId">Formação Acadêmica*</label>
+            <div class="formacaoCandidato">
+                <input id="formacaoCandidatoId" data-cy="cv-formacao" maxlength="100" data-field-name="formacao" placeholder="Ex.:Graduação "> 
+            </div>
+
+            <label for="idiomasCandidatoId">Idiomas*</label>
+            <div class="idiomasCandidato">
+                <input id="idiomasCandidatoId" data-cy="cv-idiomas" maxlength="100" data-field-name="idiomas" placeholder="Ex.:Inglês "> 
+            </div>
+
+            <label for="pretencaoSalarialCandidatoId">Pretenção Salarial*</label>
+            <div class="pretencaoSalarial">
+                <input id="pretencaoSalarialCandidatoId" data-cy="cv-pretencaoSalarial" maxlength="100" data-field-name="pretencaoSalarial" placeholder="Ex.:1.000 "> 
+            </div>
+
+
+        </div>
+
+
+
+        <div id="recrutador"></div>
+        <label for="razaoSocialRecrutadorId">Razão Social*</label>
+            <div class="razaoSocial">
+                <input id="razaoSocialRecrutadorId" data-cy="cv-razaoSocial" maxlength="100" data-field-name="razaoSocial" placeholder="Ex.: Marisa da Sousa"> 
+            </div>
+
+            <label for="cnpjRecrutadorId">CNPJ*</label>
+            <div class="cnpj">
+                <input id="cnpjRecrutadorId" data-cy="cv-cnpj" maxlength="100" data-field-name="cnpj" placeholder="Ex.: 00.000.000/0000-00"> 
+            </div>
+            
+            <label for="enderecoRecrutadorId">Endereço*</label>
+            <div class="endereco">
+                <input id="enderecoRecrutadorId" data-cy="cv-endereco" maxlength="100" data-field-name="endereco" placeholder="Ex.: Rua deu match"> 
+            </div>
+
+            <label for="contatoRecrutadorId">Contato*</label>
+            <div class="contato">
+                <input id="contatoRecrutadorId" data-cy="cv-contato" maxlength="100" data-field-name="contato" placeholder="Ex.: (11) 9 0000- 0000"> 
+            </div>
+
+            <label for="porteEmpresaRecrutadorId">Porte Empresa*</label>
+            <div class="porteEmpresa">
+                <input id="porteEmpresaRecrutadorId" data-cy="cv-porteEmpresa" maxlength="100" data-field-name="porteEmpresa" placeholder="Ex.: Porte Grande"> 
+            </div>
+
+            <label for="descricaoEmpresaRecrutadorId">Descrição Empresa*</label>
+            <div class="descricaoEmpresa">
+                <input id="descricaoEmpresaRecrutadorId" data-cy="cv-descricaoEmpresa" maxlength="100" data-field-name="descricaoEmpresa" placeholder="Ex.: "> 
+            </div>
+
+            <label for="setorAtuacaoRecrutadorId">Setor de Atuação*</label>
+            <div class="setor">
+                <input id="setorAtuacaoRecrutadorId" data-cy="cv-setorAtuacao" maxlength="100" data-field-name="setorAtuacao" placeholder="Ex.: Setor de Tecnologia"> 
+            </div>
+
+            <label for="vagasCadastradasRecrutadorId">Vagas Cadastradas*</label>
+            <div class="vagasCadastradas">
+                <input id="vagasCadastradasRecrutadorId" data-cy="cv-vagasCadastradas" maxlength="100" data-field-name="vagasCadastradas" placeholder="Ex.: "> 
+            </div>
     </div>
     <div id="cadastro-menu-inicial">
-        <p><a href="index.html">Pagina Inicial</a></p>
-        <p><a href="login.html">Login</a></p>
+        <a href="index.html">Pagina Inicial</a>
+        <a href="login.html">Login</a></p>
     </div>
 </body>
 </html>
